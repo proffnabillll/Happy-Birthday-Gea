@@ -5,7 +5,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background-color: lightblue; /* Background color changed to light blue */
+  background-color: lightblue; /* Add this line */
 }
 
 .song {
@@ -253,31 +253,11 @@ body {
 
 @media screen and (max-width: 500px) {
   .container {
-    width: 90%; /* Sesuaikan lebar container agar lebih proporsional di layar kecil */
-  }
-
-  .one {
-    font-size: 2.5rem; /* Mengurangi ukuran font untuk judul utama */
-  }
-
-  .two {
-    font-size: 1rem; /* Mengurangi ukuran font untuk teks salam */
-  }
-
-  .three {
-    font-size: 1.8rem; /* Mengurangi ukuran font untuk teks "Karena hari ini..." */
+    width: 90%;
   }
 
   .four .text-box {
-    width: 90%; /* Menggunakan lebar persentase agar responsif */
-    margin: 0 auto; /* Tengahkankan text-box */
-    padding: 10px; /* Sesuaikan padding jika perlu */
-  }
-
-  .hbd-chatbox {
-    font-size: 0.9rem; /* Mengurangi ukuran font untuk chatbox agar tidak terpotong */
-    overflow: auto; /* Tambahkan scroll jika konten terlalu panjang */
-    max-height: 200px; /* Batasi tinggi chatbox dan tambahkan scroll jika melebihi */
+    width: 90%;
   }
 
   .text-box .fake-btn {
@@ -285,70 +265,29 @@ body {
     right: 5px;
   }
 
-  .five p {
-    font-size: 1.2rem; /* Mengurangi ukuran font untuk bagian "Oh iyaa, bahagia terus ya sayang" */
-  }
-
-  .idea-5 {
-    font-size: 2.5rem; /* Mengurangi ukuran font untuk "Kamu orang yang istimewa buat aku" */
+  .idea-5 span {
+    display: block;
   }
 
   .idea-6 span {
-    font-size: 7rem; /* Mengurangi ukuran font untuk HBD */
-  }
-
-  .six img {
-    height: 250px; /* Mengurangi tinggi gambar profil */
+    font-size: 10rem;
   }
 
   .six .hat {
+    /* top: -20px; */
     width: 50px;
-    left: 38%; /* Sesuaikan posisi topi agar pas di kepala */
-    top: -20%; /* Sesuaikan posisi vertikal topi */
   }
 
   .wish-hbd {
-    font-size: 2em; /* Mengurangi ukuran font "Happy Birthday!" */
+    font-size: 2.2em;
   }
 
   .wish h5 {
-    font-size: 1.2rem; /* Mengurangi ukuran font untuk "Panjang umur dan sehat selalu ya" */
+    font-size: 1.4rem;
   }
 
   .nine p {
-    font-size: 1.2rem; /* Mengurangi ukuran font untuk bagian terakhir */
+    font-size: 1.5rem;
+    font-weight: lighter;
   }
-}
-
-/* Tambahkan media query untuk layar yang lebih kecil lagi jika diperlukan */
-@media screen and (max-width: 320px) {
-    .one {
-        font-size: 2rem;
-    }
-
-    .three {
-        font-size: 1.5rem;
-    }
-
-    .hbd-chatbox {
-        font-size: 0.8rem;
-    }
-
-    .idea-5 {
-        font-size: 2rem;
-    }
-
-    .idea-6 span {
-        font-size: 5rem;
-    }
-
-    .six img {
-        height: 200px;
-    }
-
-    .six .hat {
-        width: 40px;
-        left: 39%;
-        top: -15%;
-    }
 }
