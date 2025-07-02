@@ -108,7 +108,7 @@ body {
 
 .six img {
   display: inline-block;
-  height: 350px;
+  height: 450px; /* Changed from 350px to 450px to increase the size */
   max-width: 100%;
   /* height: auto; */
 }
